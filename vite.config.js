@@ -11,4 +11,7 @@ export default defineConfig({
             refresh: true,
         }),
     ],
+    build: {
+        outDir: 'public/dist', // Output directory is now 'public/dist'
+    },
 });
